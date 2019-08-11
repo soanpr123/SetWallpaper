@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_dowload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_file_download_black_24dp"
+        android:visibility="invisible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="96dp"
+        android:src="@drawable/ic_share_black_24dp"
+        android:visibility="invisible" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_setwall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/ic_check_black_24dp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/txtdl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dowload"
+        android:textSize="15sp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="30dp"
+        android:visibility="invisible"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txtshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textSize="15sp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="120dp"
+        android:visibility="invisible"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txtset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Wallpaper"
+        android:visibility="invisible"
+        android:textSize="15sp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="175dp"
+        android:textColor="#000"/>
+</FrameLayout>
